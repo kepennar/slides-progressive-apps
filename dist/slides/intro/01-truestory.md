@@ -1,0 +1,1 @@
+<!-- .slide: data-background="url(images/slides/intro/truestory.gif) no-repeat center" data-background-size="contain"-->
