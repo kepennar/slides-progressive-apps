@@ -18,7 +18,8 @@ var paths = {
   dist: 'dist',
   tmp: '.tmp',
   images: 'src/resources/images',
-  fonts: 'src/resources/fonts'
+  fonts: 'src/resources/fonts',
+  'bower': 'bower_components'
 }
 
 /* *** Template *** */
@@ -65,6 +66,16 @@ gulp.task('copy:md', function() {
   return gulp.src(path.join(paths.src, '/**/*.md'))
   .pipe(gulp.dest(path.join(paths.dist, 'slides')))
   .pipe($.size({title: path.join(paths.dist, '/slides'), showFiles: true}));
+});
+
+gulp.task('copy:fonts', function() {
+  return gulp.src([
+    path.join(paths.bower, 'mdi/fonts/**/*.{eot,svg,otf,ttf,woff,woff2}'),
+    path.join(paths.fonts, '**/*.{eot,svg,otf,ttf,woff,woff2}'),
+    path.join(paths.bower, 'font-source-sans-pro/**/*.{eot,svg,otf,ttf,woff,woff2}')
+  ])
+  .pipe(gulp.dest(path.join(paths.dist, 'fonts')))
+  .pipe($.size({title: 'Fonts', showFiles: true}));
 })
 
 /* *** Browser sync *** */
@@ -85,6 +96,7 @@ function serve(baseDir) {
         '/slides': paths.src,
         '/images': paths.images,
         '/fonts': paths.fonts,
+        '/fonts/WOFF': paths.bower + '/font-source-sans-pro/WOFF',
       }
     },
     online: false
@@ -139,7 +151,7 @@ gulp.task('test:dist', function(done) {
 gulp.task('build', function(done) {
   runSequence(
     'clean',
-    ['style', 'copy:images', 'copy:md', 'template'],
+    ['style', 'copy:images', 'copy:md', 'copy:fonts', 'template'],
     'html',
     done);
 });
