@@ -10,6 +10,8 @@
  // See ../../bower_components/reveal.js/css/theme/README.md
  // for further explanations on how to create a custom reveal.js theme.
 
+$SourceSansProPath: '../fonts';
+
 // Default mixins and settings -----------------
 @import "../../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../../bower_components/reveal.js/css/theme/template/settings";
@@ -17,10 +19,12 @@
 
 @font-face {
     font-family: "Track";
-    src: url("fonts/track/Track.otf?") format("opentype"),
-         url("fonts/track/Track.ttf") format("truetype");
+    src: url("../fonts/track/Track.otf?") format("opentype"),
+         url("../fonts/track/Track.ttf") format("truetype");
 }
 
+@import '../../../bower_components/mdi/scss/materialdesignicons.scss';
+@import '../../../bower_components/font-source-sans-pro/source-sans-pro.scss';
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
 $backgroundColor: white;
@@ -173,6 +177,16 @@ pre[data-line] {
       right: -20px;
       bottom: -80px;
       color: #7a7a7a;
+    }
+  }
+  table {
+    width: 100%;
+
+    th {
+      text-shadow: grey 1px 1px;
+    }
+    tr {
+      color: #555;
     }
   }
 }

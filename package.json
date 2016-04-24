@@ -34,5 +34,6 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "gulp"
-  }
+  },
+  "dependencies": {}
 }
