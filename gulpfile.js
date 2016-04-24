@@ -96,6 +96,8 @@ function serve(baseDir) {
         '/slides': paths.src,
         '/images': paths.images,
         '/fonts': paths.fonts,
+        '/fonts/materialdesignicons-webfont.woff2': paths.bower + '/mdi/fonts/materialdesignicons-webfont.woff2',
+        '/fonts/materialdesignicons-webfont.woff': paths.bower + '/mdi/fonts/materialdesignicons-webfont.woff',
         '/fonts/WOFF': paths.bower + '/font-source-sans-pro/WOFF',
       }
     },

@@ -29,16 +29,28 @@
       "awakening/nativeapp.md",
       "awakening/06-specs-perf.md",
       "awakening/nativeapp.md",
-      "awakening/07-compare.md"
-    ],
-    [
-      "code-example/example.md",
-      "code-example/iframe.md"
+      "awakening/07-compare.md",
+      "awakening/08-compare.md"
     ],
     [
       "serviceworker/serviceworker.md",
       "serviceworker/webworker.md",
       "serviceworker/extensible-web-manifesto.md",
       "serviceworker/sw-precache.md"
+    ],
+    [
+      "worker-rendering/01-perf.md",
+      "worker-rendering/02-webapp-slow.md",
+      "worker-rendering/03-javascript.md",
+      "worker-rendering/04-singlethread.md",
+      "worker-rendering/05-bench.md",
+      "worker-rendering/06-multithread-it.md",
+      "worker-rendering/07-mi-architecture-webworker.md",
+      "worker-rendering/08-mi-architecture-ww-and-event.md",
+      "worker-rendering/09-mi-architecture.md"
+
+    ],
+    [
+      "code-example/example.md"
     ]
 ] 

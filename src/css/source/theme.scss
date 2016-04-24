@@ -178,6 +178,11 @@ pre[data-line] {
       bottom: -80px;
       color: #7a7a7a;
     }
+
+    &.dark-background {
+      color: #CCC;
+      background-color: transparent;
+    }
   }
   table {
     width: 100%;
@@ -189,4 +194,11 @@ pre[data-line] {
       color: #555;
     }
   }
+}
+
+.turquoise {
+  color: #1dd0ad;
+}
+.emerald {
+  color: #2ecc71;
 }
