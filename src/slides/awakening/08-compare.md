@@ -2,7 +2,7 @@
 <table>
     <thead>
         <tr>
-            <th>Constraint</th>
+            <th>Contraintes</th>
             <th >Native</th>
             <th>Web</th>
         </tr>
