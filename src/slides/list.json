@@ -38,10 +38,14 @@
 
     ],
     [
-      "serviceworker/serviceworker.md",
-      "serviceworker/webworker.md",
-      "serviceworker/extensible-web-manifesto.md",
-      "serviceworker/sw-precache.md"
+      "serviceworker/01-serviceworker.md",
+      "serviceworker/02-webworker.md",
+      "serviceworker/03-webworker-presentation.md",
+      "serviceworker/04-webworker-constraints.md",
+      "serviceworker/05-webworker-example.md",
+      "serviceworker/06-serviceworker-presentation.md",
+      "serviceworker/03-extensible-web-manifesto.md",
+      "serviceworker/04-sw-precache.md"
     ],
     [
       "worker-rendering/01-perf.md",
