@@ -9,14 +9,17 @@
     [
       "proxy/01-proxy.md",
       "proxy/02-proxy-for-dev.md",
-      "proxy/03-web-dev.md",
-      "proxy/04-npm.md",
-      "proxy/05-fail-npm.md",
-      "proxy/06-git.md",
-      "proxy/07-fail-git.md",
-      "proxy/08-docker.md",
-      "proxy/09-fail-docker.md",
-      "proxy/10-explode.md"
+      "proxy/03-clients-DAT.md",
+      "proxy/03-clients-caillou.md",
+      "proxy/03-clients-credit.md",
+      "proxy/04-web-dev.md",
+      "proxy/05-npm.md",
+      "proxy/06-fail-npm.md",
+      "proxy/07-git.md",
+      "proxy/08-fail-git.md",
+      "proxy/09-docker.md",
+      "proxy/10-fail-docker.md",
+      "proxy/11-explode.md"
     ],
     [
       "awakening/01-hatching.md",
