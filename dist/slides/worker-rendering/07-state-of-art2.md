@@ -2,6 +2,7 @@
 
 ### JS en 2016
 
-React et Angular2 se détachent du DOM afin 
- - D'être plus performant
- - De s'exécuter partout
+Il est possible de faire des rendus
+ - Coté serveur
+ - Dans des applications natives
+ - Dans des Web Workers 

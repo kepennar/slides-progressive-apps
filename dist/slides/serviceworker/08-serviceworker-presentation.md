@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#fff"-->
+<!-- .slide: data-background="url(images/slides/serviceworker/serviceworker_l.svg) white no-repeat center" data-background-size="contain"-->
 
 ### Service Worker
 
