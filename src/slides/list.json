@@ -38,14 +38,15 @@
 
     ],
     [
-      "serviceworker/01-serviceworker.md",
-      "serviceworker/02-webworker.md",
-      "serviceworker/03-webworker-presentation.md",
-      "serviceworker/04-webworker-constraints.md",
-      "serviceworker/05-webworker-example.md",
-      "serviceworker/06-serviceworker-presentation.md",
-      "serviceworker/03-extensible-web-manifesto.md",
-      "serviceworker/04-sw-precache.md"
+      "serviceworker/01-offline.md",
+      "serviceworker/02-serviceworker.md",
+      "serviceworker/03-webworker.md",
+      "serviceworker/04-webworker-presentation.md",
+      "serviceworker/05-webworker-constraints.md",
+      "serviceworker/06-webworker-example.md",
+      "serviceworker/07-serviceworker-presentation.md",
+      "serviceworker/extensible-web-manifesto.md",
+      "serviceworker/sw-precache.md"
     ],
     [
       "worker-rendering/01-perf.md",
@@ -57,6 +58,11 @@
       "worker-rendering/07-mi-architecture-webworker.md",
       "worker-rendering/08-mi-architecture-ww-and-event.md",
       "worker-rendering/09-mi-architecture.md"
+
+    ],
+    [
+      "progressive-apps/progressive-apps.md",
+      "progressive-apps/google.md"
 
     ],
     [

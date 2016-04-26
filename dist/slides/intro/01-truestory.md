@@ -1,1 +1,1 @@
-<!-- .slide: data-background="url(images/slides/intro/truestory.gif) no-repeat center" data-background-size="contain"-->
+<video class="slide fullscreen" autoplay loop src="images/slides/intro/truestory.ogg" ></video>

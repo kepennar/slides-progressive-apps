@@ -1,5 +1,5 @@
 
-<pre class="language-js fragment current-visible" data-fragment-index="0" style="position:absolute;top:0;left:0;"  >
+<pre class="language-js fragment current-visible code-with-highlight" data-fragment-index="0" >
 <code>
 (function() {
   'use strict';
@@ -24,7 +24,7 @@
 </pre>
 
 
-<pre data-line="3-6" class="language-js fragment current-visible" data-fragment-index="1" style="position:absolute;top:0;left:0;" >
+<pre data-line="3-6" class="language-js fragment current-visible code-with-highlight" data-fragment-index="0">
 <code>
 (function() {
   'use strict';
