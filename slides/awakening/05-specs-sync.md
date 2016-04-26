@@ -1,3 +1,3 @@
-### Contraintes
+## Contraintes
 
  Synchronisation des donnés automatique
