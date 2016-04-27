@@ -53,6 +53,9 @@
       "serviceworker/12-sw-magic.md"
     ],
     [
+      "sync/01-sync.md"
+    ],
+    [
       "worker-rendering/01-perf.md",
       "worker-rendering/02-webapp-slow.md",
       "worker-rendering/03-javascript.md",
@@ -72,11 +75,17 @@
       "worker-rendering/15-multithread-it.md"
     ],
     [
-      "progressive-apps/progressive-apps.md",
-      "progressive-apps/google.md"
-
+      "progressive-apps/01-progressive-apps.md",
+      "progressive-apps/02-web-fail-mobile.md",
+      "progressive-apps/03-mobile-engagment.md",
+      "progressive-apps/04-app-win.md",
+      "progressive-apps/05-creators.md",
+      "progressive-apps/06-definition.md",
+      "progressive-apps/07-google.md",
+      "progressive-apps/08-progressive-enhancement.md",
+      "progressive-apps/09-flipkart-lite.md",
+      "progressive-apps/10-flipkart-time.md",
+      "progressive-apps/11-flipkart-conversion.md"
     ],
-    [
-      "code-example/example.md"
-    ]
+    "end.md"
 ] 
