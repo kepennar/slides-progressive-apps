@@ -53,10 +53,16 @@
     ],
     [
       "sync/01-sync.md",
-      "sync/client-side-storage.md",
-      "sync/dom-storage.md",
-      "sync/db-like-storage.md",
-      "sync/stay-sync.md"
+      "sync/02-stay-sync.md",
+      "sync/03-client-side-storage.md",
+      "sync/04-dom-storage.md",
+      "sync/05-db-like-storage.md",
+      "sync/06-indexeddb.md",
+      "sync/07-indexeddb-api.md",
+      "sync/08-alternative.md",
+      "sync/09-pouchdb.md",
+      "sync/10-pouchdb-sync.md",
+      "sync/11-pouchdb-example.md"
     ],
     [
       "worker-rendering/01-perf.md",
