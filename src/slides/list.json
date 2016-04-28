@@ -24,18 +24,17 @@
     [
       "awakening/01-hatching.md",
       "awakening/02-quote.md",
-      "awakening/03-specs-multidevices.md",
+      "awakening/03-specs.md",
+      "awakening/04-specs-multidevices.md",
       "awakening/webapp.md",
-      "awakening/04-specs-offline.md",
+      "awakening/05-specs-offline.md",
       "awakening/nativeapp.md",
-      "awakening/05-specs-sync.md",
+      "awakening/06-specs-sync.md",
       "awakening/nativeapp.md",
-      "awakening/06-specs-perf.md",
+      "awakening/07-specs-perf.md",
       "awakening/nativeapp.md",
-      "awakening/07-compare.md",
-      "awakening/08-compare.md",
-      "awakening/09-pwtc-video.md"
-
+      "awakening/08-compare1.md",
+      "awakening/09-compare2.md"
     ],
     [
       "serviceworker/01-offline.md",
@@ -53,7 +52,11 @@
       "serviceworker/12-sw-magic.md"
     ],
     [
-      "sync/01-sync.md"
+      "sync/01-sync.md",
+      "sync/client-side-storage.md",
+      "sync/dom-storage.md",
+      "sync/db-like-storage.md",
+      "sync/stay-sync.md"
     ],
     [
       "worker-rendering/01-perf.md",
@@ -81,11 +84,15 @@
       "progressive-apps/04-app-win.md",
       "progressive-apps/05-creators.md",
       "progressive-apps/06-definition.md",
-      "progressive-apps/07-google.md",
-      "progressive-apps/08-progressive-enhancement.md",
-      "progressive-apps/09-flipkart-lite.md",
-      "progressive-apps/10-flipkart-time.md",
-      "progressive-apps/11-flipkart-conversion.md"
+      "progressive-apps/07-progressive-enhancement.md",
+      "progressive-apps/08-google.md",
+      "progressive-apps/09-home-screen.md",
+      "progressive-apps/10-home-screen-example.md",
+      "progressive-apps/11-manifest.md",
+      "progressive-apps/12-pwtc-video.md",
+      "progressive-apps/13-flipkart-lite.md",
+      "progressive-apps/14-flipkart-time.md",
+      "progressive-apps/15-flipkart-conversion.md"
     ],
-    "end.md"
+  "end.md"
 ] 

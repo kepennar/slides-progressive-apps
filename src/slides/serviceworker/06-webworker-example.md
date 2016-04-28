@@ -1,6 +1,6 @@
 <!-- .slide: data-background="url(images/slides/serviceworker/webworker_l.svg) white no-repeat center" data-background-size="contain"-->
 
-<pre class="language-js fragment current-visible code-with-highlight" data-fragment-index="0">
+<pre class="language-js fragment current-visible code-with-highlight" data-fragment-index="1">
 <code>
 /*  *** MAIN *** */
     var worker = new Worker('path/to/worker.js');
@@ -20,7 +20,7 @@
 </code>
 </pre>
 
-<pre class="language-js fragment current-visible code-with-highlight" data-line="9, 14" data-fragment-index ="1">
+<pre class="language-js fragment current-visible code-with-highlight" data-line="9, 14" data-fragment-index="2">
 <code>
 /*  *** MAIN *** */
     var worker = new Worker('path/to/worker.js');
@@ -41,7 +41,7 @@
 </pre>
 
 
-<pre class="language-js fragment current-visible code-with-highlight" data-line="6, 16" data-fragment-index ="2">
+<pre class="language-js fragment current-visible code-with-highlight" data-line="6, 16" data-fragment-index="3">
 <code>
 /*  *** MAIN *** */
     var worker = new Worker('path/to/worker.js');
