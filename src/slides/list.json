@@ -73,15 +73,15 @@
       "worker-rendering/06-state-of-art.md",
       "worker-rendering/07-state-of-art2.md",
       "worker-rendering/08-letsdoit.md",
-      "worker-rendering/09-mi-architecture-webworker.md",
-      "worker-rendering/10-mi-virtual-dom1.md",
+      "worker-rendering/09-mi-virtual-dom1.md",
       "worker-rendering/10-mi-virtual-dom2.md",
-      "worker-rendering/10-mi-virtual-dom3.md",
-      "worker-rendering/11-mi-virtual-dom-diff.md",
-      "worker-rendering/12-mi-architecture-ww-and-event.md",
-      "worker-rendering/13-mi-architecture.md",
-      "worker-rendering/14-npm-biggest.md",
-      "worker-rendering/15-multithread-it.md"
+      "worker-rendering/11-mi-virtual-dom3.md",
+      "worker-rendering/12-mi-virtual-dom-diff.md",
+      "worker-rendering/13-mi-architecture-webworker.md",
+      "worker-rendering/14-mi-architecture-ww-and-event.md",
+      "worker-rendering/15-mi-architecture.md",
+      "worker-rendering/16-npm-biggest.md",
+      "worker-rendering/17-multithread-it.md"
     ],
     [
       "progressive-apps/00-compare.md",
