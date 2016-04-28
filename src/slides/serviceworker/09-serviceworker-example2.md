@@ -15,7 +15,7 @@ function getResponse() {
             .then(cache => {
                 cache.put(event.request, response);
             });
-            return response.clone();
+            return response;
         });
     })
 }
@@ -37,7 +37,7 @@ function getResponse() {
             .then(cache => {
                 cache.put(event.request, response);
             });
-            return response.clone();
+            return response;
         });
     })
 }
@@ -59,7 +59,7 @@ function getResponse() {
             .then(cache => {
                 cache.put(event.request, response);
             });
-            return response.clone();
+            return response;
         });
     })
 }
@@ -81,7 +81,7 @@ function getResponse() {
             .then(cache => {
                 cache.put(event.request, response);
             });
-            return response.clone();
+            return response;
         });
     })
 }
