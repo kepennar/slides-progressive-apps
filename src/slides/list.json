@@ -2,9 +2,7 @@
     "index.md",
     [
       "intro/01-truestory.md",
-      "intro/02-cfp.md",
-      "intro/03-refus.md",
-      "intro/04-cry.md"
+      "intro/02-me.md"
     ],
     [
       "proxy/01-proxy.md",
@@ -49,7 +47,8 @@
       "serviceworker/09-serviceworker-example2.md",
       "serviceworker/10-sw-precache.md",
       "serviceworker/11-sw-precache-example.md",
-      "serviceworker/12-sw-magic.md"
+      "serviceworker/12-sw-magic.md",
+      "serviceworker/13-sw-update.md"
     ],
     [
       "sync/01-sync.md",
